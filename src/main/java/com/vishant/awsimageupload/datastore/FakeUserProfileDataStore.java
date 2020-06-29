@@ -12,8 +12,8 @@ import com.vishant.awsimageupload.profile.UserProfile;
 public class FakeUserProfileDataStore {
 	private static final List<UserProfile> USER_PROFILES = new ArrayList<>();
 	static {
-		USER_PROFILES.add(new UserProfile(UUID.randomUUID(), "janetiones", null));
-		USER_PROFILES.add(new UserProfile(UUID.randomUUID(), "antoniojr", null));
+		USER_PROFILES.add(new UserProfile(UUID.fromString("168559f8-60c1-4526-8116-983e09cbe927"), "janetiones", null));
+		USER_PROFILES.add(new UserProfile(UUID.fromString("57571fcf-a4ef-45b5-a49c-f8713d3d584f"), "antoniojr", null));
 	}
 	public List<UserProfile> getUserProfiles() {
 		return USER_PROFILES;
