@@ -11,7 +11,7 @@ This application requires two web servers to run concurrently for front end and 
 User should have Java 8 installed with an appropriate IDE (preferrably IntelliJ, STS, Eclipse, etc).
 
 ### JavaScript
-User should have node.js installed as a prerequisite./
+User should have node.js installed as a prerequisite.
 Axios is required to make HTTP requests and communicate with the back end.
 ```
 npm -S i axios
@@ -19,7 +19,7 @@ npm -S i axios
 
 ## Usage
 To use the application, run both servers to start (localhost:3000 for front end, localhost:8080 for back end).
-Next, select an image of your choice and drag it into the area below the circular border. Upon refreshing, page should reflect changes./
+Next, select an image of your choice and drag it into the area below the circular border. Upon refreshing, page should reflect changes.
 Below shows the implementation of this application after two image uploads.
 
 ## Improvement
