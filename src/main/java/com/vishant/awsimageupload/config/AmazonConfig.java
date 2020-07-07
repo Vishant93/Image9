@@ -2,7 +2,8 @@ package com.vishant.awsimageupload.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
+//AKIAISDKFJL6OPA4UGVA
+//cnJskPqLKJQU3zTcO+SGJ0DFySGfnDGpIUN8GH7W
 import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
@@ -14,8 +15,7 @@ public class AmazonConfig {
 	@Bean
 	public AmazonS3 s3() {
 		AWSCredentials awsCredentials = new BasicAWSCredentials(
-				"AKIAISDKFJL6OPA4UGVA",
-				"cnJskPqLKJQU3zTcO+SGJ0DFySGfnDGpIUN8GH7W"
+				""
 				);
 		return AmazonS3ClientBuilder
 				.standard()
